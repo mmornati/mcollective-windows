@@ -18,12 +18,9 @@ Agents
   Usage examples:
   ```bash
   mco rpc service list #show the list of all configured services
-  mco rpc service status service_name=<sname> #get status of the provided
-  service
-  mco rpc service start service_name=<sname> #start the provided service (if it
-  exists and it's not already started) and return the service status
-  mco rpc service stop service_name=<sname> #stop the provided service (if it
-  exists and it's running) and return the status
+  mco rpc service status service_name=<sname> #get status of the provided service
+  mco rpc service start service_name=<sname> #start the provided service (if it exists and it's not already started) and return the service status
+  mco rpc service stop service_name=<sname> #stop the provided service (if it exists and it's running) and return the status
   ```
 
 * **Eventlog**: get eventlogs from Windows Server. Available methods: list,
@@ -31,8 +28,6 @@ Agents
   
   Usage examples:
   ```bash
-  mco rpc eventlog list #show a complete list of the event logs on the windows
-  server
-  mco rpc eventlog applist app_name=<aname> #list the list of event logs for the
-  provided application
+  mco rpc eventlog list #show a complete list of the event logs on the windows server
+  mco rpc eventlog applist app_name=<aname> #list the list of event logs for the provided application
   ```
