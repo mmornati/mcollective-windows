@@ -14,3 +14,5 @@ Agents
 ------
 * **Service**: the service agent will control services on your windows machine.
   Availables actions: list, start, stop and status
+* **Eventlog**: get eventlogs from Windows Server. Available methods: list,
+  applist (to filter on desired app)
