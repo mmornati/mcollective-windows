@@ -14,7 +14,7 @@ Facts
   dnsdomain: mobile.lan
   dnshostname: winxp-marco
   dnsservers: 
-  - "192.168.35.254"
+   "192.168.35.254"
   </pre>
 
 Agents
