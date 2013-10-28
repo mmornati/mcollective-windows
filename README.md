@@ -38,3 +38,17 @@ Agents
   mco rpc eventlog list #show a complete list of the event logs on the windows server
   mco rpc eventlog applist app_name=<aname> #list the list of event logs for the provided application
   ```
+
+* **Filesystem**: agents to retrieve information from server disks. To use this
+  agent you should install the following ruby gems:
+  ```bash
+  gem install ruby-wmi
+  gem install sys-filesystem
+  ```
+
+  Usage examples:
+  ```bash
+  mco rpc filesystem list  #List all available system disks
+  mco rpc filesystem diskstat disk_name=C  #Show information about the disks named C:\
+  ```
+
