@@ -10,12 +10,12 @@ Facts
 * **dns**: add some dns information to the server facts list. Used to check the
   configuration of machine into inventory
   Example of facts returned:
-  ```
+  <pre>
   dnsdomain: mobile.lan
   dnshostname: winxp-marco
   dnsservers: 
   - "192.168.35.254"
-  ```
+  </pre>
 
 Agents
 ------
