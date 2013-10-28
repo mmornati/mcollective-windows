@@ -10,7 +10,7 @@ Facts
 * **dns**: add some dns information to the server facts list. Used to check the
   configuration of machine into inventory
   Example of facts returned:
-  ```bash
+  ```
   dnsdomain: mobile.lan
   dnshostname: winxp-marco
   dnsservers: 
